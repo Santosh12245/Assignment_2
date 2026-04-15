@@ -38,8 +38,18 @@ const TodoList = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-950 p-4 md:p-10 text-neutral-200">
+    <div className="min-h-screen bg-neutral-950 p-4 md:p-10 text-neutral-200 rounded-xl">
       <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-400 to-slate-500 tracking-tight mb-2">
+                TODO LIST
+            </h1>
+            <p className="text-slate-500 font-medium tracking-widest uppercase text-xs">
+                Sprint Cycle
+            </p>
+            {/* Decorative underline */}
+            <div className="mt-4 h-1 w-16 bg-cyan-500 mx-auto rounded-full shadow-[0_0_8px_rgba(6,182,212,0.5)]" />
+        </div>
         
         {/* Header Section */}
         <header className="flex items-center justify-between mb-10">

@@ -23,7 +23,7 @@ import { User, ShieldCheck, Calendar, Settings } from 'lucide-react';
  */
 const UserProfile = ({ username, age, isAdmin = false }) => {
   return (
-    <div className="min-h-screen bg-slate-900 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-slate-900 flex items-center justify-center p-6 rounded-xl">
       {/* Dashboard Card */}
       <div className="relative w-full max-w-md bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl overflow-hidden transition-all hover:shadow-cyan-500/10">
         
