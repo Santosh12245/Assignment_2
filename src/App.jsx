@@ -44,7 +44,6 @@ import SearchDashboard from './components/SearchDashboard'
 import TodoList from './components/TodoList'
 import SecretMessage from './components/SecretMessage'
 import FocusInput from './components/FocusInput'
-import ButtonComponent from './assets/ButtonComponent'
 
 function App() {
   return (
