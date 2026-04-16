@@ -44,12 +44,13 @@ import SearchDashboard from './components/SearchDashboard'
 import TodoList from './components/TodoList'
 import SecretMessage from './components/SecretMessage'
 import FocusInput from './components/FocusInput'
+import ButtonComponent from './assets/ButtonComponent'
 
 function App() {
   return (
+    
     /* 1. Main Background Wrapper with Deep Slate & Radial Glow */
     <div className="min-h-screen bg-[#020617] text-slate-200 selection:bg-cyan-500/30">
-      
       {/* 2. Decorative Background Elements (Orbs) */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-cyan-500/10 rounded-full blur-[120px]" />
